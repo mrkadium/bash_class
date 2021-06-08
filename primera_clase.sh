@@ -30,3 +30,11 @@ echo 'Argument count:' $#
 # codigo de status del ultimo script,
 # como codigos de salida
 # $?
+
+# if
+if [[ $# -gt 1 ]]
+then
+	echo 'There is more than one argument'
+else
+	echo 'One or none arguments'
+fi
