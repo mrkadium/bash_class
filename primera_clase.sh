@@ -21,8 +21,9 @@ echo 'Filename:' $0
 
 # argumentos
 # $n (n = numero cualquiera del argumento)
-echo 'First argument:' $1
-echo 'Second argument:' $2
+# ./primera_clase.sh uno dos
+echo 'First argument:' $1 # uno
+echo 'Second argument:' $2 # dos
 
 # numero de argumentos
 echo 'Argument count:' $#
@@ -30,6 +31,9 @@ echo 'Argument count:' $#
 # codigo de status del ultimo script,
 # como codigos de salida
 # $?
+
+# numero de proceso en el que el shell esta corriendo
+# $$
 
 # if
 if [[ $# -gt 1 ]]
