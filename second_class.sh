@@ -22,7 +22,7 @@ mod=`expr 2%2`
 igual=`expr 2 != 2`
 
 echo $igual
-
+echo $multiplicacion
 
 # comparaciones
 #espacio despues del corchete de apertura, y antes del corchete de cierre
